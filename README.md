@@ -397,12 +397,13 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 			A ---> B
 			...etc
 	```
+
 其中[方向]的取值有  
-| 值 | 全称 | 释义 |   
-|:-----:|:---------------:|:-----:|    
-| TB(或TD) | Top Bottom(Down) | ↓ |  
-| BT(或DT) | Bottom(Down) Top | ↑ |  
-| LR | Left Right | → | 
+| 值 | 全称 | 释义 |
+|:-----:|:---------------:|:-----:|
+| TB(或TD) | Top Bottom(Down) | ↓ |
+| BT(或DT) | Bottom(Down) Top | ↑ |
+| LR | Left Right | → |
 | RL | Right Left | ← |  
 
 #### 效果
