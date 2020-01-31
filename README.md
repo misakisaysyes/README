@@ -22,32 +22,32 @@ Vivian Tan 补充了流程图部分
 * [1_横线](#1_横线)
 * [2_标题](#2_标题)
 * [3_文本](#3_文本)
-    * 3.1.普通文本
-    * 3.2.单行文本
-    * 3.3.多行文本
-    * 3.4.文字高亮
-    * 3.5.换行
-    * 3.6.斜粗体和删除线
+    * 3_1普通文本
+    * 3_2单行文本
+    * 3_3多行文本
+    * 3_4文字高亮
+    * 3_5换行
+    * 3_6斜粗体和删除线
 * [4_图片](#4_图片)
 * [5_链接](#5_链接) 
-    *  5.1.链接外部URL
-    *  5.2.链接本仓库里的URL
-    *  5.3.锚点
-    * [5_4_图片链接](#5_4_图片链接)
+    *  5_1链接外部URL
+    *  5_2链接本仓库里的URL
+    *  5_3锚点
+    * [5_4图片链接](#5_4图片链接)
 * [6_列表](#6_列表)
-    * 6.1.无序列表
-    * 6.2.多级无序列表
-    * 6.3.一级有序列表
-    * 6.4.多级有序列表
-    * 6.5.复选框列表
+    * 6_1无序列表
+    * 6_2多级无序列表
+    * 6_3一级有序列表
+    * 6_4多级有序列表
+    * 6_5复选框列表
 * [7_块引用](#7_块引用)
 * [8_代码高亮](#8_代码高亮)
 * [9_表格](#9_表格) 
 * [10_表情](#10_表情)
 * [11_diff语法](#11_diff语法)
 * [12_流程图](#12_流程图)
-  * 12.1.流程图
-  * 12.2.状态图
+  * 12_1流程图
+  * 12_2状态图
 
 
 ### 1_横线
@@ -90,11 +90,11 @@ ___
 
 ### 3_文本
 
-#### 3.1.普通文本
+#### 3_1普通文本
 
 这是一段普通的文本
 
-#### 3.2.单行文本
+#### 3_2单行文本
 ##### 语法
 ```
     //在行开头加1个Tab或4个空格
@@ -105,7 +105,7 @@ ___
 
     Hello,大家好，我是果冻虾仁。
 
-#### 3.3.文本块
+#### 3_3文本块
 ##### 语法
 ```    
     //在连续几行的文本开头加入1个Tab或者4个空格。
@@ -131,7 +131,7 @@ ___
 
 该语法也可以实现代码高亮，见[8_代码高亮](#8_代码高亮)
 
-#### 3.4.文字高亮
+#### 3_4文字高亮
 
 ##### 语法
 ```
@@ -144,7 +144,7 @@ ___
 
 适合给内部文本做高亮，也适合做一篇文章的tag
 
-#### 3.5.换行
+#### 3_5换行
 
 ##### 语法
 ```
@@ -175,7 +175,7 @@ ___
 //html效果
 欢迎到访<br/>很高兴见到你
 
-#### 3.6.斜体、粗体、删除线
+#### 3_6斜体、粗体、删除线
 |语法|效果|
 |----|-----|
 |`*斜体1*`|*斜体1*|
@@ -209,13 +209,13 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |#|语法|效果|
 |---|---|----
 |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][code-past]` <br/> `[code-past]:https://img-blog.csdnimg.cn/201908060004034.png`|![][code-past]
+|2|`![][code-past]` <br/> `[code-past]:https://img-blog.csdnimg.cn/201908060004034.png`|![][code-past]|
 注意例2的写法使用了**URL标识符**的形式，在[5_链接](#5_链接)一节有介绍。
 
 
 ### 5_链接
 
-#### 5.1.链接外部URL
+#### 5_1链接外部URL
 
 |语法|效果|
 |----|-----|
@@ -223,14 +223,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |`[我的知乎][zhihu] ` <br/> `[zhihu]:https://www.zhihu.com/people/jellywong "悬停显示"`|[我的知乎][zhihu] |
 
 
-#### 5.2.链接本仓库里的URL
+#### 5_2链接本仓库里的URL
 
 |语法|效果|
 |----|-----|
 |`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
 |`[example](./example)`|[example](./example)|
 
-#### 5.3.图片链接
+#### 5_3图片链接
 图片加链接 = 图片显示语法 + 普通的链接语法。
 普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
 
@@ -241,7 +241,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |3|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`<br/>`[zhihu]:https://www.zhihu.com/people/jellywong`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
 |4|`[![csdn-logo]][csdn]`<br/> `[csdn-logo]:/img/csdn.png "我的CSDN博客"` <br/> `[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"`|[![csdn-logo]][csdn]|
 
-#### 5.4.锚点
+#### 5_4锚点
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
 
 |语法|效果|
@@ -254,7 +254,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ### 6_列表
 
-#### 6.1.无序列表
+#### 6_1无序列表
 ##### 语法
 ```
     * 昵称：果冻虾仁
@@ -268,7 +268,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 - 别名：隔壁老王
 * 英文名：Jelly
 
-#### 6.2.多级无序列表
+#### 6_2多级无序列表
 ##### 语法
 ```
     * 编程语言
@@ -282,7 +282,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
     * 脚本语言
         * Python
 
-#### 6.3.一级有序列表
+#### 6_3一级有序列表
 ##### 语法
 
 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。 
@@ -302,7 +302,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 2. 继承
 3. 多态
 
-#### 6.4.多级有序列表
+#### 6_4多级有序列表
 和无序列表一样，有序列表也有多级结构。
 ##### 语法
 ```
@@ -318,7 +318,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
       1. 这是三级的有序列表，数字在显示的时候变成了英文字母
 	 
 
-#### 6.5.复选框列表
+#### 6_5复选框列表
 ##### 语法
 
 ```
@@ -481,10 +481,10 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 这里只介绍流程图和状态图的常用语法，更多请见[mermaid项目地址](https://github.com/mermaid-js/mermaid)
 
-#### 12.1.流程图
+#### 12_1流程图
 流程图语法描述内容包括：方向、节点、连线、子图4个部分。
 
-##### 1_方向语法
+##### 12_1_1方向语法
 ```
     ```mermaid
         graph TB    %% graph [方向值]
@@ -500,14 +500,14 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 | LR | Left Right  | →  |
 | RL | Right Left  | ←  |
 
-##### 1_方向效果
+##### 12_1_1方向效果
   
  | TB | BT | LR | RL |
  | --- | --- | --- | --- | 
- |![TB](/img/TB.png)|![BT](/img/BT.png)|![LR](/img/LR.png)|![RL](/img/RL.png)| 
+ |![](/img/TB.png)|![](/img/BT.png)|![](/img/LR.png)|![](/img/RL.png)| 
 
 
-##### 2_节点语法
+##### 12_1_2节点语法
 ```
     ```mermaid
         graph TB    
@@ -522,12 +522,12 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 注意：直接定义idx不加括号说明形状时默认为矩形。
 
-##### 2_节点效果
+##### 12_1_2节点效果
 
-![nodes](/img/nodes.png)
+![](/img/nodes.png)
 
 
-##### 3_连线语法
+##### 12_1_3连线语法
 ```
     ```mermaid
         graph LR
@@ -544,17 +544,17 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 注意：连线的"-"数必须严格按照语法示例的个数来，连线两端空格无严格要求。
 
-##### 3_连线效果
+##### 12_1_3连线效果
 
 |#|无注释|带注释|
 |:------:|:------:|:------:|
-|`---` 无方向连线|![link1](/img/link1.png)|![link2](/img/link2.png)|
-|`-->` 带方向连线|![link3](/img/link3.png)|![link4](/img/link4.png)|
-|`-.->` 虚线|![link5](/img/link5.png)|![link6](/img/link6.png)|
-|`==>` 加粗线|![link7](/img/link7.png)|![link8](/img/link8.png)|
+|`---` 无方向连线|![](/img/link1.png)|![](/img/link2.png)|
+|`-->` 带方向连线|![](/img/link3.png)|![](/img/link4.png)|
+|`-.->` 虚线|![](/img/link5.png)|![](/img/link6.png)|
+|`==>` 加粗线|![](/img/link7.png)|![](/img/link8.png)|
 
 
-##### 4_子图语法
+##### 12_1_4子图语法
 ```
     ```mermaid
         graph TB
@@ -571,15 +571,15 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
     ```
 ```
 
-##### 4_子图效果
+##### 12_1_4子图效果
 
-![subgraph](/img/subgraph.png)
+![](/img/subgraph.png)
 
 
-#### 12.2.状态图
+#### 12_2状态图
 状态图语法描述内容主要有：状态、转化、起止、合成状态4个部分。
 
-##### 1_状态语法
+##### 12_2_1状态语法
 ```
     ```mermaid
         stateDiagram    %% 两种状态定义方式
@@ -588,11 +588,11 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
     ```
 ```
 
-##### 1_状态效果
+##### 12_2_1状态效果
 
-![state](/img/state.png)
+![](/img/state.png)
 
-##### 2_转化语法
+##### 12_2_2转化语法
 ```
     ```mermaid
         stateDiagram    %% 两种转化描述方式
@@ -601,11 +601,11 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
     ```
 ```
 
-##### 2_转化效果
+##### 12_2_2转化效果
 
-![stateTransition](/img/state_trans.png)
+![](/img/state_trans.png)
 
-##### 3_状态起止描述语法
+##### 12_2_3状态起止描述语法
 ```
     ```mermaid
         stateDiagram
@@ -614,11 +614,11 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
     ```
 ```
 
-##### 3_状态起止效果
+##### 12_2_3状态起止效果
 
-![begin_end](/img/begin_end.png)
+![](/img/begin_end.png)
 
-##### 4_合成状态语法
+##### 12_2_4合成状态语法
 ```
     ```mermaid
         stateDiagram
@@ -638,9 +638,9 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
     ```
 ```
 
-##### 4_合成状态效果
+##### 12_2_4合成状态效果
 
-![com_trans](/img/com_trans.png)
+![](/img/com_trans.png)
 
 --------------------------------
 [csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
