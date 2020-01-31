@@ -52,8 +52,6 @@ Vivian Tan 补充了流程图部分
 <br/>
 ## 横线
 
-------
-
 ##### 语法
 
     ***
@@ -69,8 +67,6 @@ ___
 
 <br/>
 ## 标题
-
-------
 
 ##### 语法
 
@@ -94,7 +90,6 @@ ___
 <br/>
 ## 文本
 
-------
 
 ### 普通文本
 
@@ -193,7 +188,6 @@ ___
 <br/>
 ## 图片
 
-------
 
 ##### 语法
     
@@ -218,7 +212,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 <br/>
 ## 链接
 
-------
 
 ### 链接外部URL
 
@@ -260,7 +253,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 <br/>
 ## 列表
 
-------
 
 ### 无序列表
 ##### 语法
@@ -351,7 +343,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 <br/>
 ## 块引用
 
-------
 
 ##### 语法
 
@@ -372,7 +363,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 <br/>
 ## 代码高亮
 
-------
 
 ##### 语法
     
@@ -414,7 +404,6 @@ string &operator+(const string& A,const string& B) //cpp
 <br/>
 ## 表格
 
-------
 
 ##### 语法
     
@@ -448,7 +437,6 @@ string &operator+(const string& A,const string& B) //cpp
 <br/>
 ## 表情
 
-------
 
 ##### 语法
 
@@ -467,7 +455,6 @@ string &operator+(const string& A,const string& B) //cpp
 <br/>
 ## diff语法
 
-------
 
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除。
@@ -491,10 +478,8 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 
 <br/>
-
 ## 流程图
 
-------
 
 这里只介绍流程图和状态图的常用语法，更多请见[mermaid项目地址](https://github.com/mermaid-js/mermaid)
 
