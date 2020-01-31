@@ -32,8 +32,8 @@ Vivian Tan 补充了流程图部分
 * [5_链接](#5_链接) 
     *  5_1链接外部URL
     *  5_2链接本仓库里的URL
-    *  5_3锚点
-    * [5_4图片链接](#5_4图片链接)
+    * [5_3图片链接](#5_3图片链接)
+    *  5_4锚点
 * [6_列表](#6_列表)
     * 6_1无序列表
     * 6_2多级无序列表
@@ -207,9 +207,10 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
 |#|语法|效果|
-|---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+|:----:|:----:|:----:|
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
 |2|`![][code-past]` <br/> `[code-past]:https://img-blog.csdnimg.cn/201908060004034.png`|![][code-past]|
+
 注意例2的写法使用了**URL标识符**的形式，在[5_链接](#5_链接)一节有介绍。
 
 
@@ -504,7 +505,7 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
   
  | TB | BT | LR | RL |
  | --- | --- | --- | --- | 
- |![](/img/TB.png)|![](/img/BT.png)|![](/img/LR.png)|![](/img/RL.png)| 
+ |![TB](/img/TB.PNG "hover")|![BT](/img/BT.PNG "hover")|![LR](/img/LR.PNG "hover")|![RL](/img/RL.png "hover")| 
 
 
 ##### 12_1_2节点语法
