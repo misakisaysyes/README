@@ -18,7 +18,7 @@ Anyway, happy reading!
 Vivian Tan 补充了流程图部分
 
 ****
-# 目录
+## 目录
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
@@ -50,7 +50,7 @@ Vivian Tan 补充了流程图部分
 
 
 <br/>
-## 横线
+### 横线
 
 ##### 语法
 
@@ -66,7 +66,7 @@ ___
 
 
 <br/>
-## 标题
+### 标题
 
 ##### 语法
 
@@ -88,14 +88,13 @@ ___
 
 
 <br/>
-## 文本
+### 文本
 
-
-### 普通文本
+#### 普通文本
 
 这是一段普通的文本
 
-### 单行文本
+#### 单行文本
 ##### 语法
 
     //在行开头加1个Tab或4个空格
@@ -105,7 +104,7 @@ ___
 
     Hello,大家好，我是果冻虾仁。
 
-### 文本块
+#### 文本块
 ##### 语法
     
     //在连续几行的文本开头加入1个Tab或者4个空格。
@@ -130,7 +129,7 @@ ___
 
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 
-### 文字高亮
+#### 文字高亮
 
 ##### 语法
     `linux` `网络编程` `socket` `epoll` 
@@ -140,7 +139,7 @@ ___
 
 适合给内部文本做高亮，也适合做一篇文章的tag
 
-### 换行
+#### 换行
 
 ##### 语法
     //上行文本末尾两个空格
@@ -170,7 +169,7 @@ ___
 //html效果
 欢迎到访<br/>很高兴见到你
 
-### 斜体、粗体、删除线
+#### 斜体、粗体、删除线
 |语法|效果|
 |----|-----|
 |`*斜体1*`|*斜体1*|
@@ -186,8 +185,7 @@ ___
 
 
 <br/>
-## 图片
-
+### 图片
 
 ##### 语法
     
@@ -210,10 +208,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-## 链接
+### 链接
 
-
-### 链接外部URL
+#### 链接外部URL
 
 |语法|效果|
 |----|-----|
@@ -221,14 +218,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |`[我的知乎][zhihu] ` <br/> `[zhihu]:https://www.zhihu.com/people/jellywong "悬停显示"`|[我的知乎][zhihu] |
 
 
-### 链接本仓库里的URL
+#### 链接本仓库里的URL
 
 |语法|效果|
 |----|-----|
 |`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
 |`[example](./example)`|[example](./example)|
 
-### 图片链接
+#### 图片链接
 图片加链接 = 图片显示语法 + 普通的链接语法。
 普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
 
@@ -239,7 +236,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |3|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`<br/>`[zhihu]:https://www.zhihu.com/people/jellywong`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
 |4|`[![csdn-logo]][csdn]`<br/> `[csdn-logo]:/img/csdn.png "我的CSDN博客"` <br/> `[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"`|[![csdn-logo]][csdn]|
 
-### 锚点
+#### 锚点
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
 
 |语法|效果|
@@ -251,10 +248,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-## 列表
+### 列表
 
-
-### 无序列表
+#### 无序列表
 ##### 语法
 
     * 昵称：果冻虾仁
@@ -267,7 +263,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 - 别名：隔壁老王
 * 英文名：Jelly
 
-### 多级无序列表
+#### 多级无序列表
 ##### 语法
 
     * 编程语言
@@ -280,7 +276,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
     * 脚本语言
         * Python
 
-### 一级有序列表
+#### 一级有序列表
 ##### 语法
 
 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。 
@@ -299,7 +295,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 2. 继承
 3. 多态
 
-### 多级有序列表
+#### 多级有序列表
 和无序列表一样，有序列表也有多级结构。
 ##### 语法
 
@@ -314,7 +310,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
       1. 这是三级的有序列表，数字在显示的时候变成了英文字母
 	 
 
-### 复选框列表
+#### 复选框列表
 ##### 语法
 
 ```
@@ -341,8 +337,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-## 块引用
-
+### 块引用
 
 ##### 语法
 
@@ -361,8 +356,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-## 代码高亮
-
+### 代码高亮
 
 ##### 语法
     
@@ -402,8 +396,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 <br/>
-## 表格
-
+### 表格
 
 ##### 语法
     
@@ -435,8 +428,7 @@ string &operator+(const string& A,const string& B) //cpp
 表格单元中的内容可以和其他大多数GFM语法配合使用，如在表格中放链接图片等。 
 
 <br/>
-## 表情
-
+### 表情
 
 ##### 语法
 
@@ -453,8 +445,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 <br/>
-## diff语法
-
+### diff语法
 
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除。
@@ -478,12 +469,11 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 
 <br/>
-## 流程图
-
+### 流程图
 
 这里只介绍流程图和状态图的常用语法，更多请见[mermaid项目地址](https://github.com/mermaid-js/mermaid)
 
-### 流程图
+#### 流程图
 流程图语法描述内容包括：方向、节点、连线、子图4个部分。
 
 ##### 1_方向语法
@@ -582,7 +572,7 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 ![subgraph](/img/subgraph.png)
 
 
-### 状态图
+#### 状态图
 状态图语法描述内容主要有：状态、转化、起止、合成状态4个部分。
 
 ##### 1_状态语法
