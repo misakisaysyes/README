@@ -49,7 +49,6 @@ Vivian Tan 补充了流程图部分
   * 状态图
 
 
-<br/>
 ### 横线
 
 ##### 语法
@@ -65,7 +64,6 @@ Vivian Tan 补充了流程图部分
 ___
 
 
-<br/>
 ### 标题
 
 ##### 语法
@@ -87,7 +85,7 @@ ___
 ###### 六级标题  
 
 
-<br/>
+
 ### 文本
 
 #### 普通文本
@@ -184,7 +182,7 @@ ___
 斜体、粗体、删除线可混合使用
 
 
-<br/>
+
 ### 图片
 
 ##### 语法
@@ -207,7 +205,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 
 
-<br/>
+
 ### 链接
 
 #### 链接外部URL
@@ -247,7 +245,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 > 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
 
 
-<br/>
+
 ### 列表
 
 #### 无序列表
@@ -336,7 +334,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
 
 
-<br/>
+
 ### 块引用
 
 ##### 语法
@@ -355,7 +353,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>>> 满二叉树
 
 
-<br/>
+
 ### 代码高亮
 
 ##### 语法
@@ -395,7 +393,7 @@ string &operator+(const string& A,const string& B) //cpp
 ```
 
 
-<br/>
+
 ### 表格
 
 ##### 语法
@@ -427,7 +425,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 表格单元中的内容可以和其他大多数GFM语法配合使用，如在表格中放链接图片等。 
 
-<br/>
+
+
 ### 表情
 
 ##### 语法
@@ -444,7 +443,7 @@ string &operator+(const string& A,const string& B) //cpp
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
 
-<br/>
+
 ### diff语法
 
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
@@ -468,7 +467,7 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 ```
 
 
-<br/>
+
 ### 流程图
 
 这里只介绍流程图和状态图的常用语法，更多请见[mermaid项目地址](https://github.com/mermaid-js/mermaid)
