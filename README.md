@@ -2,9 +2,9 @@ README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
-另外本文记录了基于mermaid插件的常见流程图语法，虽然目前github的GFM解析器并不支持流程图语法(nor does MarkdownPad)，但可以在vscode中安装markdown和mermaid两个插件，便可在vscode中写带流程图*.md文件。
+另外本文记录了基于mermaid插件的常见流程图语法，虽然目前github的GFM解析器并不支持流程图语法(nor does MarkdownPad)，但可以在vscode中安装markdown和mermaid两个插件，便可在vscode中编辑支持流程图的*.md文件。
 
-传代码写的流程图上github，可以通过preview截图再按照GFM语法插入*.md中，即便这样，还是觉得代码写图比拖拽制图要方便且快很多，不过因人而异吧~
+若要传代码写的流程图上github，可以通过preview截图再按照GFM语法插入*.md中，即便这样，还是觉得代码写图比拖拽制图要方便且快很多，不过因人而异吧~
 
 Anyway, happy reading!
 
@@ -18,7 +18,7 @@ Anyway, happy reading!
 Vivian Tan 补充了流程图部分
 
 ****
-## 目录
+# 目录
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
@@ -50,8 +50,8 @@ Vivian Tan 补充了流程图部分
 
 
 <br/>
-横线
------------
+## 横线
+------
 
 ##### 语法
 
@@ -67,7 +67,7 @@ ___
 
 
 <br/>
-标题
+## 标题
 ------
 
 ##### 语法
@@ -90,7 +90,7 @@ ___
 
 
 <br/>
-文本
+## 文本
 ------
 
 ### 普通文本
@@ -173,7 +173,6 @@ ___
 欢迎到访<br/>很高兴见到你
 
 ### 斜体、粗体、删除线
-
 |语法|效果|
 |----|-----|
 |`*斜体1*`|*斜体1*|
@@ -189,7 +188,7 @@ ___
 
 
 <br/>
-图片
+## 图片
 ------
 
 ##### 语法
@@ -213,7 +212,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-链接
+## 链接
 ------
 
 ### 链接外部URL
@@ -254,7 +253,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-列表
+## 列表
 ------
 
 ### 无序列表
@@ -342,8 +341,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 > Tip:
 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
 
+
 <br/>
-块引用
+## 块引用
 ------
 
 ##### 语法
@@ -363,8 +363,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 
 <br/>
-代码高亮
--------
+## 代码高亮
+------
 
 ##### 语法
     
@@ -404,8 +404,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 <br/>
-表格
---------
+## 表格
+------
 
 ##### 语法
     
@@ -436,10 +436,9 @@ string &operator+(const string& A,const string& B) //cpp
 
 表格单元中的内容可以和其他大多数GFM语法配合使用，如在表格中放链接图片等。 
 
-
 <br/>
-表情
-----------
+## 表情
+------
 
 ##### 语法
 
@@ -456,8 +455,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 <br/>
-diff语法
----------
+## diff语法
+------
 
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除。
@@ -481,7 +480,7 @@ GFM中可以显示的展示diff效果。绿色表示新增，红色表示删除�
 
 
 <br/>
-流程图
+## 流程图
 ------
 
 这里只介绍流程图和状态图的常用语法，更多请见[mermaid项目地址](https://github.com/mermaid-js/mermaid)
